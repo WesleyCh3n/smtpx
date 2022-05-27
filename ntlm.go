@@ -1,4 +1,4 @@
-package smtp
+package smtpx
 
 import (
 	"bytes"
@@ -12,10 +12,10 @@ import (
 	"strings"
 	"unicode/utf16"
 
-	"github.com/cmarkh/SMTP/golang.org/x/net/smtp"
-	"github.com/cmarkh/smtp/golang.org/x/crypto/md4"
+	"github.com/WesleyCh3n/smtpx/golang.org/x/crypto/md4"
+	"github.com/WesleyCh3n/smtpx/golang.org/x/net/smtp"
 
-	"github.com/cmarkh/SMTP/ThomsonReutersEikon/go-ntlm/ntlm"
+	"github.com/WesleyCh3n/smtpx/ThomsonReutersEikon/go-ntlm/ntlm"
 )
 
 const (

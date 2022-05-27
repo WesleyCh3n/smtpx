@@ -1,4 +1,4 @@
-package smtp
+package smtpx
 
 import (
 	"bytes"
@@ -17,7 +17,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/cmarkh/SMTP/golang.org/x/net/smtp"
+	"github.com/WesleyCh3n/smtpx/golang.org/x/net/smtp"
 )
 
 const (

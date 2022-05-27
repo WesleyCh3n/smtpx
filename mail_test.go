@@ -1,9 +1,9 @@
-package smtp
+package smtpx
 
 import (
 	"testing"
 
-	"github.com/cmarkh/SMTP/golang.org/x/net/smtp"
+	"github.com/WesleyCh3n/smtpx/golang.org/x/net/smtp"
 )
 
 func Test_SendMail(t *testing.T) {
