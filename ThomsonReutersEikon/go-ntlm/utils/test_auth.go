@@ -4,7 +4,7 @@ import (
 	"encoding/base64"
 	"fmt"
 
-	"github.com/cmarkh/SMTP/ThomsonReutersEikon/go-ntlm/ntlm"
+	"github.com/WesleyCh3n/smtpx/ThomsonReutersEikon/go-ntlm/ntlm"
 )
 
 func testMain() {
