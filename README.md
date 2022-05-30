@@ -17,7 +17,7 @@ Fork from [mail](https://github.com/farmerx/mail)
 
 ## Usage
 
-```
+```go
 email := smtpx.NewEMail(`{"port":25}`) // [587 NTLM AUTH] [465，994]
 email.From = `user1@example.com`
 email.Host = `smtp.example.com`
